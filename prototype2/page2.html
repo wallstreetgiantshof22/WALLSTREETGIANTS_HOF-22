@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+.box{
+            border: 2px solid black;
+            border-radius: 10px;
+            box-shadow: 0 0 5px purple;
+            
+        }
+
+        #pmi
+        {
+            background-color: burlywood;
+            width: 180px;
+            height: 40px;
+            border-radius: 5px;
+            font-size: large;
+
+        }
+
+        .td{
+
+            border: 2px solid black;
+            border-radius: 10px;
+            box-shadow: 0 0 5px purple;
+            margin-bottom: 10px;
+        }
+
+        #Twealth
+        {
+            border: 2px solid black;
+        }
+
+        #SIA
+        {
+            border: 2px solid black;
+        }
+
+
+        #ERateofReturn
+        {
+            border: 2px solid black;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <titleCALCULATORS - TIME DURATION></title>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+        <center>  <div class="td"><h1>TIME DURATION CALCULATOR</h1></div> 
+            <div class="box">
+         <h3> <b>Enter the targeted Wealth</b></h3>
+         <input type="text" id="Twealth" placeholder="Enter the Targeted Wealth" size="35" style="height: 25px;" >
+
+         <br><br><br>
+
+         <h3> <b>Enter the Invested amount</b></h3>
+         <input type="text" id="SIA" placeholder="Ex : 500" size="35" style="height: 25px;">
+         
+         <br><br><br>
+       <h3> <b>Enter the expected rate of return</b></h3>  
+         <input type="text" id="ERateofReturn" placeholder="Ex : 12%"   size="35" style="height: 25px;">
+         <br><br>
+
+         <h3 id="timedur">Calculated time duration is </h3>
+
+         <br><br><br>
+
+        <!-- <button id="CTD" onclick="Timedur()"> Calculate Time Duration </button> -->
+        <label for="buttons"></label>
+        <input type="button" value="Plan My Investment" onclick="TimeDur()" id="pmi" Calculate it fast>  
+
+        <div>
+            <canvas id="myChart" style="width:100%;height:100px ; max-width:600px"></canvas>
+            </div>
+        </div></div>
+        
+    </center>
+
+    <script src="page2.js"></script>
+</body>
+</html>

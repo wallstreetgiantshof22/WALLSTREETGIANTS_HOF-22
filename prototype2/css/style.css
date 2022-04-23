@@ -1,0 +1,21 @@
+ /* body{
+	background-image: url(http://chitrahandicraft.com/wp-content/uploads/2019/02/login-page-background-images-hd-10.jpg);
+}  */
+
+body{
+
+	/* background-image: url(https://media.istockphoto.com/photos/digitally-enhanced-shot-of-a-graph-showing-the-ups-and-downs-shares-picture-id1322201350?b=1&k=20&m=1322201350&s=170667a&w=0&h=Cp62gZiaccwtTOwzFsdUnvyDq8JC91WMloyqfjtTx-U=); */
+	background-image: url(https://steamuserimages-a.akamaihd.net/ugc/187297348932484620/B3CCF0C4675B864CEA6901B46FCFA40A5A9A98FD/);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+form{
+	background-image:linear-gradient(0deg,#0E185F,#0E185F);
+	color:white;
+}
+.w-450 {
+	width: 450px;
+}
+.vh-100 {
+	min-height: 100vh;
+}
