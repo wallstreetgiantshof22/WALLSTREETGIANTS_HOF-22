@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+
+        .box{
+
+            border: 2px solid black;
+            border-radius: 10px;
+            box-shadow: 0 0 5px purple;
+        }
+
+        #sip
+        {
+            border: 2px solid black;
+            border-radius: 10px;
+            box-shadow: 0 0 5px purple;
+            margin-bottom: 10px;
+        }
+
+        #id5
+        {
+            background-color: bisque;
+            border-radius: 5px;
+            box-shadow:0 0 5px purple ;
+            width: 200px;
+            height: 35px;
+            font-size: large;
+        }
+
+        #id1
+        {
+            border: 2px solid black;
+        }
+
+        #id2
+        {
+            border: 2px solid black;
+        }
+
+        #id3
+        {
+            border: 2px solid black;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIP </title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+            <center>  
+                <div id="sip"><h1>SIP CALCULATOR</h1></div>
+                <div class="box">
+                <h3><b>Enter the amount you wish to invest every year</b></h3>
+
+                <input type="number" id="id1" placeholder="Ex : 50"  size="35" style="height: 25px;">
+                <br><br><br>
+
+                <h3><b>Enter expected rate of interest</b></h3>
+                <input type="number" id="id2" placeholder="Ex : 2" size="35" style="height: 25px;">
+
+                <br><br><br>
+
+              <h3> <b>How long you want your investments to be </b></h3> 
+                <input type="number" id="id3" placeholder="Ex : 3" size="35" style="height: 25px;">
+                <br><br><br>
+
+            
+           <h3 id="id4"><b>The total corpus values is </b></h3>
+
+           <label for="labels"></label>
+           <button id="id5"  onclick="SIP()"> Plan Investment </button>
+
+           <div>
+            <canvas id="myChart" style="width:100%;height:100px ; max-width:600px"></canvas>
+            </div>
+
+        </div>
+
+
+
+ 
+            </center>
+            <script src="page4.js"></script>
+</body>
+</html>

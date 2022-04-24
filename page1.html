@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <style>
+ .box{
+            border: 2px solid black;
+            border-radius: 10px;
+            box-shadow: 0 0 5px purple;
+            /* width: 700px;
+            height: 1000px; */
+        }
+
+ #heading{
+    border: 2px solid black;
+            border-radius: 10px;
+            box-shadow: 0 0 5px purple;
+}
+
+#buttons{
+
+    background-color: bisque;
+            border-radius: 5px;
+            box-shadow:0 0 5px purple ;
+            width: 200px;
+            height: 35px;
+            font-size: large;
+}
+
+#Iamount
+{
+    border: 2px solid black;
+}
+
+#Rate
+{
+    border: 2px solid black;
+}
+
+#tenure
+{
+    border: 2px solid black;
+}
+
+/* body{
+    background-image: url(light.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px;
+} */
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CALCULATORS-Lumpsum</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- <link rel="stylesheet" href="page1.css"> -->
+    
+
+</head>
+
+<body>
+   
+    <center><h1 id="heading">LUMPSUM CALCULATOR</h1>
+        <div class="box">
+        <!-- <img src="Screenshot 2022-04-23 111129.png" alt="Image not found"> -->
+    <form action="form.php">
+        <h3> <b>Enter the Invested amount</b></p></h3>
+        <input type="text" id="Iamount" placeholder="ENTER THE INVESTMENT AMOUNT" size="35" style="height: 25px;" />
+        <br />
+        <br /><br />
+
+       <h3> <b>Enter the expected rate of interest</b></h3>  
+        <input type="text" id="Rate" placeholder="Enter the expected rate of return " size="35"   style="height: 25px;" />
+        <br /><br /><br />
+
+        <h3> <b>Enter the Tenure</b></h3>
+        <input type="text" id="tenure" placeholder="enter the tenure" size="35"   style="height: 25px;" />
+        <br><br><br>
+
+        <h3 id="expected">Expected amount is : </h3>
+
+        <label for="planbutton"></label>
+        <input type="button" value="Plan my Investment" onclick="lumpsum()" id="buttons" plan my future plan>
+    </form>
+    <div>
+    <canvas id="myChart" style="width:100%;height:100px ; max-width:600px"></canvas>
+    </div>
+</div></div>
+</center> 
+    <script src="page1.js"></script>
+    
+</body>
+
+</html>
